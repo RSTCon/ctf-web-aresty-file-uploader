@@ -23,22 +23,22 @@
 					{
 						echo "RST{".hash("sha256", "thisislfi-itshouldbefiltered")."}";
 					}else{
-						echo "File uploaded successfully.";
+						echo "Fisierul a fost incarcat cu succes.";
 					}
 				}
 			?>
 			<hr>
             <div class="form-group">
-                <label for="byurl">By URL:</label>
+                <label for="byurl">Prin URL:</label>
                 <input type="text" name="url" class="form-control" id="byurl">
             </div>
             <hr>
             <div class="form-group mt-3">
-                <label class="mr-2">By upload:</label>
+                <label class="mr-2">Prin fisier:</label>
                 <input type="file" name="file">
             </div>
             <hr>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Trimite</button>
         </form>
     </div>
 </body>
